@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f1111;
+}
+
+
+
+
+
+
+
+
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: 250px;
+    background-color: #faf1f1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.product h2 {
+    margin: 10px 0;
+    color: #333333;
+}
+
+.product p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #072b2e;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0a2933;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+} 
+
+.foot-panel2{
+    background-color: #0564c9;
+    
+    
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+ul{
+    margin-top: 20px;
+}
+
+
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #0564c9;
+    
+    
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    background-image: url(images/bizz\ wears2.jpeg);
+    background-size:cover;
+    height: 50px;
+    width: 158px;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+   
+}
+
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+
+
+}
+
+.copyright{
+    padding-top: 5px;
+   
+
+    
+}
